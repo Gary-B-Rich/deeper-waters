@@ -3,19 +3,26 @@
 body {
     height: 300vh;
     margin: 0;
+    padding: 10px;
     background-image: linear-gradient(white,aliceblue,steelblue, 
     blue,black,black);
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
 }
 
 .navbar {
-    border: 1px solid red;
     height: 15vh;
-    
+    width: 100%;
     position: fixed;
-    top: 0;   
+    top: 0;  
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    gap: 5px; 
+}
+
+.filler {
+    height: 17vh;
 }
 
 .photo {
@@ -24,4 +31,11 @@ body {
     background-image: url(sunsetChurch.jpg);
     background-position: center;
     background-size: cover;
+    border-radius: 50px;
+}
+
+button {
+    width: 20vw;
+    height: auto;
+    border-radius: 50px;
 }

@@ -1,1 +1,27 @@
 /* styles.css for deeper-waters */
+
+body {
+    height: 300vh;
+    margin: 0;
+    background-image: linear-gradient(white,aliceblue,steelblue, 
+    blue,black,black);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    border: 1px solid red;
+    height: 15vh;
+    
+    position: fixed;
+    top: 0;   
+}
+
+.photo {
+    width: 25vw;
+    height:100%;
+    background-image: url(sunsetChurch.jpg);
+    background-position: center;
+    background-size: cover;
+}

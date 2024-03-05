@@ -19,22 +19,23 @@ body {
 
 }
 .navbar {
-    height: 16vh;
+    border-radius: 0 0 25px 25px;
+    height: 17vh;
     width: 100%;
     position: fixed;
     top: 0;  
     display: flex;
     padding-top: 20px;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     justify-content: space-evenly;
     gap: 5px; 
-    z-index: 0;
+    z-index: 2;
     background-color: black;
 }
 
 .filler {
-    height: 17vh;
+    height: 20vh;
 }
 
 .photo {
@@ -44,20 +45,32 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 50px;
-    opacity: 0.8;
+    
 }
 
 button {
     width: 20vw;
     height: 16vh;
+    padding: 10px;
     border-radius: 50px;
-    font-size: 1.8em;
-    font-weight: 900;
-    opacity: 0.5;
+    font-size: 3em;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 800;
+    background-color: steelblue;
     
 }
 
-.text1, .text2, .text3, .text4 {
+.text2, .text4 {
+    width: 70vw;
+    font-size: 3em;
+    padding: 10px;
+    background-color: lightgrey;
+    opacity: 0.5;
+    border-radius: 25px;
+}
+
+.text1, .text3 {
     width: 80vw;
     font-size: 3em;
     padding: 10px;

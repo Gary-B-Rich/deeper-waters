@@ -1,5 +1,12 @@
 // script.js for deeper-waters
 
+const home=document.getElementById("photo");
+home.addEventListener("click", ()=> { 
+    console.log("You clicked the home button");
+    // clicking the home button reloads the index.html page
+    // the link is built into the html button tag
+});
+
 const button1=document.getElementById("button1");
 button1.addEventListener("click", ()=> { 
     console.log("You clicked button 1");
@@ -17,7 +24,7 @@ button3.addEventListener("click", ()=> {
 
 const button4=document.getElementById("button4");
 button4.addEventListener("click", ()=> { 
-    console.log("You clicked button 4");
+    console.log("You clicked button 4 (back to top)");
     scrollToTop();
 });
 

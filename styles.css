@@ -61,6 +61,15 @@ body {
     
 }
 
+.logo {
+    width: 35vw;
+    height:30vw;
+    background-image: url(/deeper-waters/deeperWaters.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .text2, .text4 {
     width: 70vw;
     font-size: 3em;

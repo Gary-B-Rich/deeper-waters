@@ -73,7 +73,7 @@ body {
 .text2, .text4 {
     width: 70vw;
     font-size: 3em;
-    padding: 10px;
+    padding: 15px;
     background-color: lightgrey;
     opacity: 0.5;
     border-radius: 25px;
@@ -82,7 +82,7 @@ body {
 .text1, .text3 {
     width: 80vw;
     font-size: 3em;
-    padding: 10px;
+    padding: 15px;
     background-color: lightgrey;
     opacity: 0.5;
     border-radius: 25px;

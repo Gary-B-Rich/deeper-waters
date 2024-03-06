@@ -80,11 +80,19 @@ body {
 }
 
 #button4 {
-    width: 25vw;
-    height:30vw;
+    width: 30vw;
+    height:35vw;
     background-image: url(/deeper-waters/jesus.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 50px;
     
+}
+
+.text5 {
+    font-size: 3em;
+    font-weight: 700;
+    font-style: italic;
+    color: steelblue;
+    padding-top: 15px;
 }

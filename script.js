@@ -1,5 +1,6 @@
 // script.js for deeper-waters
 
+window.scrollTo(0,0);
 const home=document.getElementById("photo");
 home.addEventListener("click", ()=> { 
     console.log("You clicked the home button");

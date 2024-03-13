@@ -49,11 +49,12 @@ body {
 }
 
 #button1, #button2, #button3 {
-    width: 20vw;
+    width: 25vw;
     height: 16vh;
-    padding: 10px;
+    
     border-radius: 50px;
-    font-size: 3em;
+    font-size: 1.2rem;
+    text-align: center;
     color: aliceblue;
     font-style: italic;
     font-weight: 800;
@@ -62,6 +63,7 @@ body {
 }
 
 .logo {
+    margin-top: 20px;
     width: 35vw;
     height:30vw;
     background-image: url(/deeper-waters/deeperWaters.jpg);

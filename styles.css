@@ -21,13 +21,11 @@ body {
 .navbar {
     border-radius: 0 0 25px 25px;
     height: 17vh;
-    width: 100%;
+    width: 99%;
     position: fixed;
     top: 0;  
     display: flex;
-    
-    
-    padding: 5px;
+    padding: 10px;
     justify-content: space-evenly;
     gap: 5px; 
     z-index: 2;
@@ -49,11 +47,11 @@ body {
 }
 
 #button1, #button2, #button3 {
-    width: 25vw;
+    width: 20vw;
     height: 100%;
     
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 3rem;
     text-align: center;
     color: aliceblue;
     font-style: italic;

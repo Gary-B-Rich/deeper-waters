@@ -25,9 +25,9 @@ body {
     position: fixed;
     top: 0;  
     display: flex;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
+    
+    
+    padding: 5px;
     justify-content: space-evenly;
     gap: 5px; 
     z-index: 2;
@@ -50,7 +50,7 @@ body {
 
 #button1, #button2, #button3 {
     width: 25vw;
-    height: 16vh;
+    height: 100%;
     
     border-radius: 50px;
     font-size: 1.2rem;
@@ -63,7 +63,7 @@ body {
 }
 
 .logo {
-    margin-top: 20px;
+    
     width: 35vw;
     height:30vw;
     background-image: url(/deeper-waters/deeperWaters.jpg);

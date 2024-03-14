@@ -31,7 +31,8 @@ const button3=document.getElementById("button3");
 button3.addEventListener("click", ()=> { 
     console.log("You clicked button 3");
     scrollToTop();
-    document.body.style.backgroundImage="linear-gradient(black, purple, black)";
+    //document.body.style.backgroundImage="linear-gradient(black, steelblue, black)";
+    document.body.style.backgroundImage="url(/deeper-waters/sunsetChurch.jpg)";
 });
 
 // "Jesus button"

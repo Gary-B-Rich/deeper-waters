@@ -1,6 +1,7 @@
 // script.js for deeper-waters
 
 window.scrollTo(0,0);
+
 const home=document.getElementById("photo");
 home.addEventListener("click", ()=> { 
     console.log("You clicked the home button");
@@ -27,6 +28,8 @@ const button4=document.getElementById("button4");
 button4.addEventListener("click", ()=> { 
     console.log("You clicked button 4 (back to top)");
     scrollToTop();
+    const body=document.getElementsByNameElement("body");
+    
 });
 
 // Smooth scroll to top of the screen function

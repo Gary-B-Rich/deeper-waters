@@ -1,13 +1,11 @@
 /* styles.css for deeper-waters */
 
 body {
-    
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(white,aliceblue,steelblue,
+    background-image: linear-gradient(white,rgb(240, 248, 255),steelblue,
     black,black);
     background-repeat: no-repeat;
-    
 }
 
 .main-container {
@@ -16,7 +14,6 @@ body {
     align-items: center;
     padding: 20px;
     z-index: 1;
-
 }
 .navbar {
     border-radius: 0 0 25px 25px;
@@ -33,7 +30,7 @@ body {
 }
 
 .filler {
-    height: 18vw;
+    height: 17vw;
 }
 
 #photo {
@@ -61,8 +58,9 @@ body {
 }
 
 .logo {
-    
-    width: 35vw;
+    padding-left: 20px;
+    border-radius: 50px;
+    width: 33vw;
     height:30vw;
     background-image: url(/deeper-waters/deeperWaters.jpg);
     background-position: center;

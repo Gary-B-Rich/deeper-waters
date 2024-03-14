@@ -12,6 +12,8 @@ home.addEventListener("click", ()=> {
 const button1=document.getElementById("button1");
 button1.addEventListener("click", ()=> { 
     console.log("You clicked button 1");
+    scrollToTop();
+    document.body.style.background="steelblue";
 });
 
 const button2=document.getElementById("button2");
@@ -28,8 +30,6 @@ const button4=document.getElementById("button4");
 button4.addEventListener("click", ()=> { 
     console.log("You clicked button 4 (back to top)");
     scrollToTop();
-    const body=document.getElementsByNameElement("body");
-    
 });
 
 // Smooth scroll to top of the screen function

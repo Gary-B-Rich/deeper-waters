@@ -2,6 +2,7 @@
 
 window.scrollTo(0,0);
 
+// church button
 const home=document.getElementById("photo");
 home.addEventListener("click", ()=> { 
     console.log("You clicked the home button");
@@ -9,6 +10,7 @@ home.addEventListener("click", ()=> {
     // the link is built into the html button tag
 });
 
+// "our mission" button
 const button1=document.getElementById("button1");
 button1.addEventListener("click", ()=> { 
     console.log("You clicked button 1");
@@ -16,16 +18,19 @@ button1.addEventListener("click", ()=> {
     document.body.style.background="steelblue";
 });
 
+// "worship services button"
 const button2=document.getElementById("button2");
 button2.addEventListener("click", ()=> { 
     console.log("You clicked button 2");
 });
 
+// "contact our team button"
 const button3=document.getElementById("button3");
 button3.addEventListener("click", ()=> { 
     console.log("You clicked button 3");
 });
 
+// "Jesus button"
 const button4=document.getElementById("button4");
 button4.addEventListener("click", ()=> { 
     console.log("You clicked button 4 (back to top)");
@@ -40,4 +45,3 @@ const scrollToTop = () => {
       window.scrollTo(0, scroller - scroller / 30); //30 is the speed
     }
   };
-// use scrollToTop() to execute

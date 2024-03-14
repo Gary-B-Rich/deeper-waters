@@ -6,8 +6,8 @@ window.scrollTo(0,0);
 const home=document.getElementById("photo");
 home.addEventListener("click", ()=> { 
     console.log("You clicked the home button");
-    // clicking the home button reloads the index.html page
-    // the link is built into the html button tag
+    scrollToTop();
+    document.body.style.backgroundImage="linear-gradient(white, aliceblue, steelblue, black, black)";
 });
 
 // "our mission" button
@@ -15,19 +15,23 @@ const button1=document.getElementById("button1");
 button1.addEventListener("click", ()=> { 
     console.log("You clicked button 1");
     scrollToTop();
-    document.body.style.background="steelblue";
+    document.body.style.backgroundImage="linear-gradient(steelblue, aliceblue, steelblue)";
 });
 
 // "worship services button"
 const button2=document.getElementById("button2");
 button2.addEventListener("click", ()=> { 
     console.log("You clicked button 2");
+    scrollToTop();
+    document.body.style.backgroundImage="linear-gradient(white, steelblue, white)";
 });
 
 // "contact our team button"
 const button3=document.getElementById("button3");
 button3.addEventListener("click", ()=> { 
     console.log("You clicked button 3");
+    scrollToTop();
+    document.body.style.backgroundImage="linear-gradient(black, purple, black)";
 });
 
 // "Jesus button"

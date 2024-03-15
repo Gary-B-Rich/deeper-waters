@@ -4,7 +4,7 @@ const text1=document.getElementById("text1");
 const text2=document.getElementById("text2");
 const text3=document.getElementById("text3");
 const text4=document.getElementById("text4");
-
+const text5=document.getElementById("text5");
 
 // church button
 const home=document.getElementById("photo");
@@ -87,6 +87,8 @@ const updateChurch = () => {
     Totam tenetur dolorem esse tempore velit, neque assumenda officiis! \
     Repudiandae, ab expedita. Fugit eligendi quis, quisquam officiis optio\
      temporibus. Ipsum, eius facilis!";
+
+    text5.innerText="Click for the Good News!";
 };
 
 // Smooth scroll to top of the screen function
@@ -100,3 +102,4 @@ const scrollToTop = () => {
 
 updateChurch();
 scrollToTop();
+

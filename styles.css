@@ -68,8 +68,9 @@ body {
     background-repeat: no-repeat;
 }
 
-.text2, .text4 {
-    width: 70vw;
+#text2, #text4 {
+    max-width: 70vw;
+    text-align: center;
     font-size: 3em;
     padding: 15px;
     background-color: lightgrey;
@@ -77,8 +78,10 @@ body {
     border-radius: 25px;
 }
 
-.text1, .text3 {
-    width: 80vw;
+#text1, #text3 {
+    /*width: 80vw;*/
+    max-width: 80vw;
+    text-align: center;
     font-size: 3em;
     padding: 15px;
     background-color: lightgrey;
@@ -96,7 +99,7 @@ body {
     
 }
 
-.text5 {
+#text5 {
     font-size: 3em;
     font-weight: 700;
     font-style: italic;

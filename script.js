@@ -1,6 +1,8 @@
 // script.js for deeper-waters
 
 window.scrollTo(0,0);
+const text1=document.getElementById("text1");
+
 
 // church button
 const home=document.getElementById("photo");
@@ -8,6 +10,7 @@ home.addEventListener("click", ()=> {
     console.log("You clicked the home button");
     scrollToTop();
     document.body.style.backgroundImage="linear-gradient(white, aliceblue, steelblue, black, black)";
+    text1.innerText="Welcome to Deeper Waters Christian Teaching Ministries";
 });
 
 // "our mission" button
@@ -16,6 +19,8 @@ button1.addEventListener("click", ()=> {
     console.log("You clicked button 1");
     scrollToTop();
     document.body.style.backgroundImage="linear-gradient(steelblue, aliceblue, steelblue)";
+    text1.innerText=`Welcome to Deeper Waters`;
+    console.log(text1.innerText);
 });
 
 // "worship services button"
@@ -38,7 +43,7 @@ button3.addEventListener("click", ()=> {
 // "Jesus button"
 const button4=document.getElementById("button4");
 button4.addEventListener("click", ()=> { 
-    console.log("You clicked button 4 (back to top)");
+    console.log("You clicked the Jesus button (back to top)");
     scrollToTop();
 });
 

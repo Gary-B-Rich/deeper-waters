@@ -19,28 +19,28 @@ home.addEventListener("click", ()=> {
 const button1=document.getElementById("button1");
 button1.addEventListener("click", ()=> { 
     console.log("clicked button1");
-    scrollToTop();
     document.body.style.backgroundImage="linear-gradient(steelblue, aliceblue, steelblue)";
     updateButton1();
+    scrollToTop();
 });
 
 // "worship services button"
 const button2=document.getElementById("button2");
 button2.addEventListener("click", ()=> { 
     console.log("clicked button2");
-    scrollToTop();
     document.body.style.backgroundImage="linear-gradient(white, steelblue, white)";
     updateButton2();
+    scrollToTop();
 });
 
 // "contact our team button"
 const button3=document.getElementById("button3");
 button3.addEventListener("click", ()=> { 
     console.log("You clicked button3");
-    scrollToTop();
     document.body.style.backgroundImage="linear-gradient(black, steelblue, black)";
     //document.body.style.backgroundImage="url(/deeper-waters/sunsetChurch.jpg)";
     updateButton3();
+    scrollToTop();
 });
 
 // "Jesus button"
@@ -94,6 +94,7 @@ const updateChurch = () => {
      temporibus. Ipsum, eius facilis!`;
 
     button4.hidden="";
+
     text5.hidden="";
     text5.innerText=`Click for the Good News!`;
 };
@@ -101,21 +102,33 @@ const updateChurch = () => {
 const updateButton1 = () => {
     hideAll();
     text1.hidden="";
-    text1.innerText=`Our mission here at Deeper Waters Christian Teaching Ministries \
-    is to teach people stuff about various things`;
+    text1.innerText=`Deeper Waters Christian Teaching Ministries\n✝`;
+    text2.hidden="";
+    text2.innerText=`We're here to minister to people, and teach them about Christ Jesus\n✝`;
+    text3.hidden="";
+    text3.innerText=`We also have a super SWEET quilt business!`
 }
 
 const updateButton2 = () => {
     hideAll();
     text1.hidden="";
-    text1.innerText=`Worship services rock with our live band!\nCheck out Faith +1 \
-    during morning worship.`
+    text1.innerText=`🎼 Worship services rock with our live band! 🎶`;
+    text2.hidden="";
+    text2.innerText=`Check out 'Leaderdogs for the Blind' during morning worship! 🎵`
 }
 
 const updateButton3 = () => {
     hideAll();
     text1.hidden="";
-    text1.innerText=`Contact us by Carrier Pigeon, Messenger Owl, or Pony Express!`;
+    text1.innerText=`There are several ways to contact us:`;
+    text2.hidden="";
+    text2.innerText=`Carrier Pigeon`; 
+    text3.hidden="";
+    text3.innerText=`Messenger Owl`;
+    text4.hidden="";
+    text4.innerText=`Pony Express`;
+    text5.hidden=""
+    text5.innerText=`Even Telegraph in select areas!`;
 }
 
 

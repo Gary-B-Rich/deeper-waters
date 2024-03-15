@@ -5,6 +5,10 @@ const text2=document.getElementById("text2");
 const text3=document.getElementById("text3");
 const text4=document.getElementById("text4");
 const text5=document.getElementById("text5");
+const text6=document.getElementById("text6");
+const title1=document.getElementById("title1");
+const title2=document.getElementById("title2");
+const title3=document.getElementById("title3");
 
 // church button
 const home=document.getElementById("photo");
@@ -95,8 +99,8 @@ const updateChurch = () => {
 
     button4.hidden="";
 
-    text5.hidden="";
-    text5.innerText=`Click for the Good News!`;
+    title3.hidden="";
+    title3.innerText=`Click for the Good News!`;
 };
 
 const updateButton1 = () => {
@@ -107,6 +111,8 @@ const updateButton1 = () => {
     text2.innerText=`We're here to minister to people, and teach them about Christ Jesus\n✝`;
     text3.hidden="";
     text3.innerText=`We also have a super SWEET quilt business!`
+    title3.hidden="";
+    title3.innerText="✝";
 }
 
 const updateButton2 = () => {
@@ -127,8 +133,8 @@ const updateButton3 = () => {
     text3.innerText=`Messenger Owl`;
     text4.hidden="";
     text4.innerText=`Pony Express`;
-    text5.hidden=""
-    text5.innerText=`Even Telegraph in select areas!`;
+    title3.hidden=""
+    title3.innerText=`Even Telegraph in select areas!`;
 }
 
 
@@ -139,7 +145,11 @@ const hideAll = () => {
     text3.hidden="hidden";
     text4.hidden="hidden";
     text5.hidden="hidden";
+    text6.hidden="hidden";
     button4.hidden="hidden";
+    title1.hidden="hidden";
+    title2.hidden="hidden";
+    title3.hidden="hidden";
 }
 
 // Smooth scroll to top of the screen function

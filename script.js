@@ -1,6 +1,5 @@
 // script.js for deeper-waters
 
-window.scrollTo(0,0);
 const text1=document.getElementById("text1");
 const text2=document.getElementById("text2");
 const text3=document.getElementById("text3");
@@ -83,6 +82,11 @@ const updateChurch = () => {
       incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
       libero reiciendis voluptates ex? Cum tempora cumque doloribus \
       accusantium error debitis aperiam maiores dolor repellendus deleniti.";
+
+    text4.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. \
+    Totam tenetur dolorem esse tempore velit, neque assumenda officiis! \
+    Repudiandae, ab expedita. Fugit eligendi quis, quisquam officiis optio\
+     temporibus. Ipsum, eius facilis!";
 };
 
 // Smooth scroll to top of the screen function
@@ -93,3 +97,6 @@ const scrollToTop = () => {
       window.scrollTo(0, scroller - scroller / 30); //30 is the speed
     }
   };
+
+updateChurch();
+scrollToTop();

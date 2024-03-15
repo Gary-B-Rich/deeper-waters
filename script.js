@@ -21,7 +21,7 @@ button1.addEventListener("click", ()=> {
     console.log("clicked button1");
     scrollToTop();
     document.body.style.backgroundImage="linear-gradient(steelblue, aliceblue, steelblue)";
-    
+    updateButton1();
 });
 
 // "worship services button"
@@ -30,7 +30,7 @@ button2.addEventListener("click", ()=> {
     console.log("clicked button2");
     scrollToTop();
     document.body.style.backgroundImage="linear-gradient(white, steelblue, white)";
-
+    updateButton2();
 });
 
 // "contact our team button"
@@ -38,9 +38,9 @@ const button3=document.getElementById("button3");
 button3.addEventListener("click", ()=> { 
     console.log("You clicked button3");
     scrollToTop();
-    document.body.style.backgroundImage="linear-gradient(black, red, black)";
+    document.body.style.backgroundImage="linear-gradient(black, steelblue, black)";
     //document.body.style.backgroundImage="url(/deeper-waters/sunsetChurch.jpg)";
-
+    updateButton3();
 });
 
 // "Jesus button"
@@ -52,25 +52,29 @@ button4.addEventListener("click", ()=> {
 
 // update dom - church button
 const updateChurch = () => {
-    text1.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. \
+    hideAll();
+    text1.hidden="";
+    text1.innerText=`Lorem ipsum dolor sit amet consectetur adipisicing elit. \
     Modi, libero! Aperiam officia tempore veniam aliquid expedita accusantium.\
      Magni iste saepe maxime ex enim nostrum sequi ad totam explicabo \
      consequuntur quia modi quidem maiores, rem esse minima, debitis libero \
      ipsum cum asperiores? Quia culpa asperiores id, vel itaque vero assumenda\
       incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
       libero reiciendis voluptates ex? Cum tempora cumque doloribus \
-      accusantium error debitis aperiam maiores dolor repellendus deleniti.";
+      accusantium error debitis aperiam maiores dolor repellendus deleniti.`;
 
-    text2.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. \
+    text2.hidden="";
+    text2.innerText=`Lorem ipsum dolor sit amet consectetur adipisicing elit. \
     Modi, libero! Aperiam officia tempore veniam aliquid expedita accusantium.\
      Magni iste saepe maxime ex enim nostrum sequi ad totam explicabo \
      consequuntur quia modi quidem maiores, rem esse minima, debitis libero \
      ipsum cum asperiores? Quia culpa asperiores id, vel itaque vero assumenda\
       incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
       libero reiciendis voluptates ex? Cum tempora cumque doloribus \
-      accusantium error debitis aperiam maiores dolor repellendus deleniti.";
+      accusantium error debitis aperiam maiores dolor repellendus deleniti.`;
     
-    text3.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. \
+    text3.hidden="";
+    text3.innerText=`Lorem ipsum dolor sit amet consectetur adipisicing elit. \
     Modi, libero! Aperiam officia tempore veniam aliquid expedita accusantium.\
      Magni iste saepe maxime ex enim nostrum sequi ad totam explicabo \
      consequuntur quia modi quidem maiores, rem esse minima, debitis libero \
@@ -81,15 +85,49 @@ const updateChurch = () => {
       Quia culpa asperiores id, vel itaque vero assumenda\
       incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
       libero reiciendis voluptates ex? Cum tempora cumque doloribus \
-      accusantium error debitis aperiam maiores dolor repellendus deleniti.";
+      accusantium error debitis aperiam maiores dolor repellendus deleniti.`;
 
-    text4.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. \
+    text4.hidden="";
+    text4.innerText=`Lorem ipsum dolor sit amet, consectetur adipisicing elit. \
     Totam tenetur dolorem esse tempore velit, neque assumenda officiis! \
     Repudiandae, ab expedita. Fugit eligendi quis, quisquam officiis optio\
-     temporibus. Ipsum, eius facilis!";
+     temporibus. Ipsum, eius facilis!`;
 
-    text5.innerText="Click for the Good News!";
+    button4.hidden="";
+    text5.hidden="";
+    text5.innerText=`Click for the Good News!`;
 };
+
+const updateButton1 = () => {
+    hideAll();
+    text1.hidden="";
+    text1.innerText=`Our mission here at Deeper Waters Christian Teaching Ministries \
+    is to teach people stuff about various things`;
+}
+
+const updateButton2 = () => {
+    hideAll();
+    text1.hidden="";
+    text1.innerText=`Worship services rock with our live band!\nCheck out Faith +1 \
+    during morning worship.`
+}
+
+const updateButton3 = () => {
+    hideAll();
+    text1.hidden="";
+    text1.innerText=`Contact us by Carrier Pigeon, Messenger Owl, or Pony Express!`;
+}
+
+
+// hide all dom sections
+const hideAll = () => {
+    text1.hidden="hidden";
+    text2.hidden="hidden";
+    text3.hidden="hidden";
+    text4.hidden="hidden";
+    text5.hidden="hidden";
+    button4.hidden="hidden";
+}
 
 // Smooth scroll to top of the screen function
 const scrollToTop = () => {

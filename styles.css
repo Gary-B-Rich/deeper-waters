@@ -6,6 +6,7 @@ body {
     background-image: linear-gradient(white,rgb(240, 248, 255),steelblue,
     black,black);
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .main-container {
@@ -71,7 +72,7 @@ body {
 #text2, #text4 {
     max-width: 70vw;
     text-align: center;
-    font-size: 3em;
+    font-size:3em;
     padding: 15px;
     background-color: lightgrey;
     opacity: 0.5;

@@ -41,22 +41,29 @@ body {
     background-image: url(/deeper-waters/sunsetChurch.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 50px;
-    
+    border-radius: 50px;    
 }
 
 #button1, #button2, #button3 {
     width: 20vw;
     height: 15vw;
-    
     border-radius: 50px;
     font-size: 3.5vw;
     text-align: center;
     color: aliceblue;
     font-style: italic;
     font-weight: 800;
-    background-color: steelblue;
-    
+    background-color: steelblue;  
+}
+
+#button4 {
+    width: 30vw;
+    height:35vw;
+    background-image: url(/deeper-waters/jesus.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    margin-bottom: 2vw; 
 }
 
 .logo {
@@ -71,8 +78,7 @@ body {
     margin-bottom: 5vw;
 }
 
-#text2, #text4 {
-    max-width: 70vw;
+#text1, #text2, #text3, #text4, #text5, #text6 {   
     text-align: center;
     font-size: 5vw;
     padding: 15px;
@@ -82,27 +88,12 @@ body {
     margin-bottom: 5vw;
 }
 
-#text1, #text3 {
-    /*width: 80vw;*/
+#text1, #text3, #text5 {
     max-width: 80vw;
-    text-align: center;
-    font-size: 5vw;
-    padding: 15px;
-    background-color: aliceblue;
-    opacity: 0.5;
-    border-radius: 25px;
-    margin-bottom: 5vw;
 }
 
-#button4 {
-    width: 30vw;
-    height:35vw;
-    background-image: url(/deeper-waters/jesus.jpeg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50px;
-    margin-bottom: 2vw;
-    
+#text2, #text4, #text6 {
+    max-width: 70vw;
 }
 
 #title1, #title2, #title3 {

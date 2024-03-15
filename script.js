@@ -61,11 +61,25 @@ const updateChurch = () => {
       incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
       libero reiciendis voluptates ex? Cum tempora cumque doloribus \
       accusantium error debitis aperiam maiores dolor repellendus deleniti.";
+
     text2.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. \
     Modi, libero! Aperiam officia tempore veniam aliquid expedita accusantium.\
      Magni iste saepe maxime ex enim nostrum sequi ad totam explicabo \
      consequuntur quia modi quidem maiores, rem esse minima, debitis libero \
      ipsum cum asperiores? Quia culpa asperiores id, vel itaque vero assumenda\
+      incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
+      libero reiciendis voluptates ex? Cum tempora cumque doloribus \
+      accusantium error debitis aperiam maiores dolor repellendus deleniti.";
+    
+    text3.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. \
+    Modi, libero! Aperiam officia tempore veniam aliquid expedita accusantium.\
+     Magni iste saepe maxime ex enim nostrum sequi ad totam explicabo \
+     consequuntur quia modi quidem maiores, rem esse minima, debitis libero \
+     ipsum cum asperiores? Quia culpa asperiores id, vel itaque vero assumenda\
+      incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
+      libero reiciendis voluptates ex? Cum tempora cumque doloribus \
+      accusantium error debitis aperiam maiores dolor repellendus deleniti.\
+      Quia culpa asperiores id, vel itaque vero assumenda\
       incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
       libero reiciendis voluptates ex? Cum tempora cumque doloribus \
       accusantium error debitis aperiam maiores dolor repellendus deleniti.";

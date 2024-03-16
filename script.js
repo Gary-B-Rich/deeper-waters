@@ -121,7 +121,7 @@ const updateButton1 = () => {
     text3.hidden="";
     text3.innerText=`We also have a super SWEET quilt business!`
     title3.hidden="";
-    title3.innerText="✝";
+    title3.innerText=`✝☦✚✝☦✚✝☦✚✝\n✚✝☦✚✝☦✚✝☦✚\n☦✚✝☦✚✝☦✚✝☦\n✝☦✚✝☦✚✝☦✚✝`;
 }
 
 const updateButton2 = () => {

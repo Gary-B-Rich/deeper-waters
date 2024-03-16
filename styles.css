@@ -69,8 +69,8 @@ body {
 .logo {
     padding-left: 20px;
     border-radius: 50px;
-    width: 33vw;
-    height:30vw;
+    width: 35vw;
+    height:33vw;
     background-image: url(/deeper-waters/deeperWaters.jpg);
     background-position: center;
     background-size: cover;
@@ -86,6 +86,7 @@ body {
     opacity: 0.5;
     border-radius: 25px;
     margin-bottom: 5vw;
+    
 }
 
 #text1, #text3, #text5 {

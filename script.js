@@ -58,24 +58,35 @@ button4.addEventListener("click", ()=> {
 const updateChurch = () => {
     hideAll();
     text1.hidden="";
-    text1.innerText=`Lorem ipsum dolor sit amet consectetur adipisicing elit. \
-    Modi, libero! Aperiam officia tempore veniam aliquid expedita accusantium.\
-     Magni iste saepe maxime ex enim nostrum sequi ad totam explicabo \
-     consequuntur quia modi quidem maiores, rem esse minima, debitis libero \
-     ipsum cum asperiores? Quia culpa asperiores id, vel itaque vero assumenda\
-      incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
-      libero reiciendis voluptates ex? Cum tempora cumque doloribus \
-      accusantium error debitis aperiam maiores dolor repellendus deleniti.`;
+    text1.innerText=`Genesis 3:1\nNow the serpent was more subtil than any \
+    beast of the field which the LORD God had made.  And he said unto the \
+    woman, Yea, hath God said, Ye shall not eat of every tree of the garden?
+    3:2: And the woman said unto the serpent, We may eat of the fruit of the \
+    trees of the garden:\n3:3: But of the fruit of the tree which is in the \
+    midst of the garden, God hath said, Ye shall not eat of it, neither shall \
+    ye touch it, lest ye die. 
+    3:4: And the serpent said unto the woman, Ye shall not surely die:
+    3:5: For God doth know that in the day ye eat thereof, then your eyes shall \
+    be opened, and ye shall be as gods, knowing good and evil. 
+    3:6: And when the woman saw that the tree was good for food, and that it \
+    was pleasant to the eyes, and a tree to be desired to make one wise, she \
+    took of the fruit thereof, and did eat, and gave also unto her husband \
+    with her; and he did eat.`
 
     text2.hidden="";
-    text2.innerText=`Lorem ipsum dolor sit amet consectetur adipisicing elit. \
-    Modi, libero! Aperiam officia tempore veniam aliquid expedita accusantium.\
-     Magni iste saepe maxime ex enim nostrum sequi ad totam explicabo \
-     consequuntur quia modi quidem maiores, rem esse minima, debitis libero \
-     ipsum cum asperiores? Quia culpa asperiores id, vel itaque vero assumenda\
-      incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
-      libero reiciendis voluptates ex? Cum tempora cumque doloribus \
-      accusantium error debitis aperiam maiores dolor repellendus deleniti.`;
+    text2.innerText=`Genesis 3:7\nAnd the eyes of them both were opened, and \
+    they knew that they were naked; and they sewed fig leaves together, and made \
+    themselves aprons.\n3:8: And they heard the voice of the LORD God walking \
+    in the garden in the cool of the day: and Adam and his wife hid themselves \
+    from the presence of the LORD God amongst the trees of the garden.
+    3:9: And the LORD God called unto Adam, and said unto him, Where art thou?
+    3:10: And he said, I heard thy voice in the garden, and I was afraid, because \
+    I was naked; and I hid myself.\n3:11: And he said, Who told thee that thou \
+    wast naked?  Hast thou eaten of the tree, whereof I commanded thee that thou \
+    shouldest not eat?\n3:12: And the man said, The woman whom thou gavest to be \
+    with me, she gave me of the tree, and I did eat.\n3:13: And the LORD God said \
+    unto the woman, What is this that thou hast done?  And the woman said, The \
+    serpent beguiled me, and I did eat.`;
     
     text3.hidden="";
     text3.innerText=`Lorem ipsum dolor sit amet consectetur adipisicing elit. \
@@ -120,7 +131,7 @@ const updateButton2 = () => {
     text1.hidden="";
     text1.innerText=`🎼 Worship services rock with our live band! 🎶`;
     text2.hidden="";
-    text2.innerText=`Check out 'Leaderdogs for the Blind' during morning worship! 🎵`
+    text2.innerText=`Check out \n'Leaderdogs for the Blind' \nduring morning worship! 🎵`
 }
 
 const updateButton3 = () => {
@@ -150,6 +161,7 @@ const hideAll = () => {
     title1.hidden="hidden";
     title2.hidden="hidden";
     title3.hidden="hidden";
+    title4.hidden="hidden";
 }
 
 // Smooth scroll to top of the screen function

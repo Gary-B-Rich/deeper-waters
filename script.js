@@ -9,6 +9,7 @@ const text6=document.getElementById("text6");
 const title1=document.getElementById("title1");
 const title2=document.getElementById("title2");
 const title3=document.getElementById("title3");
+const title4=document.getElementById("title4");
 
 // church button
 const home=document.getElementById("photo");

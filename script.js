@@ -89,24 +89,21 @@ const updateChurch = () => {
     serpent beguiled me, and I did eat.`;
     
     text3.hidden="";
-    text3.innerText=`Lorem ipsum dolor sit amet consectetur adipisicing elit. \
-    Modi, libero! Aperiam officia tempore veniam aliquid expedita accusantium.\
-     Magni iste saepe maxime ex enim nostrum sequi ad totam explicabo \
-     consequuntur quia modi quidem maiores, rem esse minima, debitis libero \
-     ipsum cum asperiores? Quia culpa asperiores id, vel itaque vero assumenda\
-      incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
-      libero reiciendis voluptates ex? Cum tempora cumque doloribus \
-      accusantium error debitis aperiam maiores dolor repellendus deleniti.\
-      Quia culpa asperiores id, vel itaque vero assumenda\
-      incidunt modi veritatis aut dicta nemo obcaecati maiores, quod sint \
-      libero reiciendis voluptates ex? Cum tempora cumque doloribus \
-      accusantium error debitis aperiam maiores dolor repellendus deleniti.`;
-
-    text4.hidden="";
-    text4.innerText=`Lorem ipsum dolor sit amet, consectetur adipisicing elit. \
-    Totam tenetur dolorem esse tempore velit, neque assumenda officiis! \
-    Repudiandae, ab expedita. Fugit eligendi quis, quisquam officiis optio\
-     temporibus. Ipsum, eius facilis!`;
+    text3.innerText=`Genesis 3:14\nAnd the LORD God said unto the serpent, Because thou \
+    hast done this, thou art cursed above all cattle, and above every beast of \
+    the field; upon thy belly shalt thou go, and dust shalt thou eat all the days \
+    of thy life\n3:15: And I will put enmity between thee and the woman, and between \
+    thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.
+    3:16: Unto the woman he said, I will greatly multiply thy sorrow and thy conception; \
+    in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, \
+    and he shall rule over thee.\n3:17: And unto Adam he said, Because thou hast \
+    hearkened unto the voice of thy wife, and hast eaten of the tree, of which I \
+    commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; \
+    in sorrow shalt thou eat of it all the days of thy life;
+    3:18: Thorns also and thistles shall it bring forth to thee; and thou shalt eat the \
+    herb of the field;\n3:19: In the sweat of thy face shalt thou eat bread, till thou \
+    return unto the ground; for out of it wast thou taken: for dust thou art, and unto \
+    dust shalt thou return.`;
 
     button4.hidden="";
 

@@ -52,7 +52,7 @@ button3.addEventListener("click", ()=> {
 const button4=document.getElementById("button4");
 button4.addEventListener("click", ()=> { 
     console.log("clicked Jesus button4");
-    document.body.style.backgroundImage="linear-gradient(black, black, steelblue, aliceblue, white)";
+    document.body.style.backgroundImage="linear-gradient(white, aliceblue, steelblue, steelblue, aliceblue, white)";
     //scrollToTop();
     updateButton4();
 });
@@ -150,13 +150,11 @@ const updateButton3 = () => {
 
 const updateButton4 = ()  => {
     title3.innerText=`The Light of the World`;
-    
     text5.hidden="";
     text5.innerText=`Lorem ipsum dolor sit amet, \
     consectetur adipisicing elit. Quibusdam animi \
     vitae quo veniam autem iste id, in culpa velit \
-    minima, optio eum ullam hic nam.`;
-    
+    minima, optio eum ullam hic nam.`;   
     text6.hidden="";
     text6.innerText=`Lorem ipsum dolor sit, amet \
     consectetur adipisicing elit. Quibusdam amet 

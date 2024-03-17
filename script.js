@@ -54,7 +54,7 @@ button4.addEventListener("click", ()=> {
     console.log("clicked Jesus button4");
     document.body.style.backgroundImage="linear-gradient(black, black, steelblue, aliceblue, white)";
     //scrollToTop();
-    //updateButton4();
+    updateButton4();
 });
 
 // update dom - church button
@@ -148,6 +148,22 @@ const updateButton3 = () => {
     title3.innerText=`Even Telegraph in select areas!`;
 }
 
+const updateButton4 = ()  => {
+    title3.innerText=`The Light of the World`;
+    
+    text5.hidden="";
+    text5.innerText=`Lorem ipsum dolor sit amet, \
+    consectetur adipisicing elit. Quibusdam animi \
+    vitae quo veniam autem iste id, in culpa velit \
+    minima, optio eum ullam hic nam.`;
+    
+    text6.hidden="";
+    text6.innerText=`Lorem ipsum dolor sit, amet \
+    consectetur adipisicing elit. Quibusdam amet 
+    commodi temporibus expedita cumque? Odio.`;
+    
+}
+
 
 // hide all dom sections
 const hideAll = () => {
@@ -175,5 +191,5 @@ const scrollToTop = () => {
 
 // populate dom on pageload
 updateChurch();
-scrollToTop();
+//scrollToTop();
 

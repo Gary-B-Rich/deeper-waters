@@ -52,7 +52,9 @@ button3.addEventListener("click", ()=> {
 const button4=document.getElementById("button4");
 button4.addEventListener("click", ()=> { 
     console.log("clicked Jesus button4");
-    scrollToTop();
+    document.body.style.backgroundImage="linear-gradient(black, black, steelblue, aliceblue, white)";
+    //scrollToTop();
+    //updateButton4();
 });
 
 // update dom - church button

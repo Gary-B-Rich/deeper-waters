@@ -38,6 +38,7 @@ button2.addEventListener("click", ()=> {
     updateButton2();
     scrollToTop();
     updateButton2;
+    
 });
 
 // "contact our team button"

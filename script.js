@@ -27,6 +27,7 @@ button1.addEventListener("click", ()=> {
     document.body.style.backgroundImage="linear-gradient(steelblue, aliceblue, steelblue)";
     updateButton1();
     scrollToTop();
+    updateButton1();
 });
 
 // "worship services button"
@@ -36,6 +37,7 @@ button2.addEventListener("click", ()=> {
     document.body.style.backgroundImage="linear-gradient(white, steelblue, white)";
     updateButton2();
     scrollToTop();
+    updateButton2;
 });
 
 // "contact our team button"
@@ -46,6 +48,7 @@ button3.addEventListener("click", ()=> {
     //document.body.style.backgroundImage="url(/deeper-waters/sunsetChurch.jpg)";
     updateButton3();
     scrollToTop();
+    updateButton3();
 });
 
 // "Jesus button"

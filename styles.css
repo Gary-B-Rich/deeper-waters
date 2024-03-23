@@ -44,6 +44,10 @@ body {
     border-radius: 50px;    
 }
 
+button:hover {
+    cursor: pointer;
+    color:steelblue;
+}
 #button1, #button2, #button3 {
     width: 20vw;
     height: 15vw;

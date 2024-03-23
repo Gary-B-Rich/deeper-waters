@@ -46,7 +46,6 @@ body {
 
 button:hover {
     cursor: pointer;
-    color:steelblue;
 }
 #button1, #button2, #button3 {
     width: 20vw;

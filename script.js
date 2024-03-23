@@ -137,6 +137,11 @@ const updateButton2 = () => {
     text1.innerText=`🎼 Worship services rock with our live band! 🎶`;
     text2.hidden="";
     text2.innerText=`Check out \n'Leaderdogs for the Blind' \nduring morning worship! 🎵`
+    text3.hidden="";
+    text3.innerText=`Sundays at 11:00 a.m.\n739 W Cody Estey Road\nPinconning, \
+    MI 48650`
+    title4.hidden="";
+    title4.innerText=`Hope we see you soon!`;
 }
 
 const updateButton3 = () => {

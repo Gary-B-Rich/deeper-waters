@@ -197,7 +197,7 @@ const scrollToTop = () => {
     }
   };
 
-// populate dom on pageload
+// populate dom at pageload
 updateChurch();
 //scrollToTop();
 

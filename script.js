@@ -188,7 +188,7 @@ const hideAll = () => {
     title4.hidden="hidden";
 }
 
-// Smooth scroll to top of the screen function
+// scroll to top of the screen function
 const scrollToTop = () => {
     const scroller = document.documentElement.scrollTop || document.body.scrollTop;
     if (scroller > 0) {
